@@ -6,8 +6,22 @@ C++ header only libraries optimized for avr
 <br>
 
   this header file is a alpha numeric Lcd Driver Based on Hitachi HD44780 LCD controller
-  
-  
+  usage sample : 
+  ```C++
+  #include "AVR_Lib/Display.h"
+  #include <util/delay.h>
+   ............................
+  ............................
+  ............................
+  	Display::LCD_Init();
+	Display::LCD_setCursor(0,0);//goto 0,0
+	Display::LCD_Disp("AVR_Lib");
+	Display::LCD_setCursor(0,1);//goto next line
+	Display::LCD_Disp("Test");
+	
+	_delay_ms(5000);
+	Display::ResetDisplay();
+  ```
 ## Keypad.h
 
 <br>  
@@ -78,7 +92,7 @@ C++ header only libraries optimized for avr
 			
 			break;
 			case inputs::Evaluate:
-      // = is pressed
+     			 // = is pressed
 			break;
 			
 			case inputs::End:
