@@ -6,14 +6,15 @@ C++ header only libraries optimized for avr
 <br>
 
   this header file is a alpha numeric Lcd Driver Based on Hitachi HD44780 LCD controller
+  
   usage sample : 
   ```C++
   #include "AVR_Lib/Display.h"
   #include <util/delay.h>
-   ............................
   ............................
   ............................
-  Display::LCD_Init();
+  ............................
+  	Display::LCD_Init();
 	Display::LCD_setCursor(0,0);//goto 0,0
 	Display::LCD_Disp("AVR_Lib");
 	Display::LCD_setCursor(0,1);//goto next line
@@ -27,6 +28,7 @@ C++ header only libraries optimized for avr
 <br>  
 
   this header file is a 4*4 keypad Driver with both normal and pullup input capture implemented
+  
   usage sample : 
   ```C++
   #include "AVR_Lib/Keypad.h"
