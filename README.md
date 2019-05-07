@@ -2,8 +2,9 @@
 C++ header only libraries optimized for avr 
 
 <html>
-<h1>Display.h<h1/>
+<h7>Display.h<h7/>
 <br>
+ 
  <p> this header file is a alpha numeric Lcd Driver Based on Hitachi HD44780 LCD controller</p>
 <br>  
 <h1>Keypad.h</h1>
