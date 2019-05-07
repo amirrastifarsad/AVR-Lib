@@ -2,13 +2,13 @@
 C++ header only libraries optimized for avr 
 
 
-## H2 Display.h
+## Display.h
 <br>
 
   this header file is a alpha numeric Lcd Driver Based on Hitachi HD44780 LCD controller
   
   
-## H2 Keypad.h
+## Keypad.h
 
 <br>  
 
