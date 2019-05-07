@@ -2,7 +2,7 @@
  * Display.h
  *
  * Created: 2/27/2019 8:46:58 PM
- *  Author: amir
+ *  Author: amirrastifarsad
  */ 
 
 #ifndef DISPLAY_H_
